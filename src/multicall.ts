@@ -106,6 +106,14 @@ export function getMulticall(chainId: number) {
 			address: '0xfe4980f62d708c2a84d3929859ea226340759320',
 			block: 0,
 		},
+		42220: {
+			address: '0xB3cb9Ec46bEDB9A85b79fBf52339de238a8e7f3e',
+			block: 0,
+		},
+		44787: {
+			address: '0x6112de027BE9667468758262139Bd087c7AbE730',
+			block: 0,
+		}
 	};
 	return addressMap[chainId];
 }
