@@ -42,6 +42,8 @@ function getAddress(chainId: number): string {
 		100: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
 		137: '0x35e4aa226ce52e1e59e5e5ec24766007bcbe2e7d',
 		1337: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
+		42220: '0xB3cb9Ec46bEDB9A85b79fBf52339de238a8e7f3e',
+		44787: '0x6112de027BE9667468758262139Bd087c7AbE730',
 	};
 	const address = addressMap[chainId];
 	return address;
